@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang = "en"> 
+<head> 
+    <meta charset = "utf-8">
+    <title> Tables and Forms </title>
+</head>
+
+<body>
+    <h1> Tables </h1>
+    <table>
+        <caption> Generic Table Format </caption>
+        <tr>
+            <th> Column One </th>
+            <th> Column Two </th>
+            <th> Column Three </th>
+        </tr>
+        <tr> 
+            <td> Item One </td>
+            <td> Item Two </td>
+            <td> Item Three </td>
+        </tr>
+    </table>
+    
+    <h1> Forms </h1>
+    <form action = "" method = ""> 
+            <!-- Method is how to send data. Action is where to send dats. -->
+
+        <label for = "fname"> First Name: </label>
+            <input type = "text" id = "fname" name = "fname"> <br> <br>
+                <!-- Short Text Box-->
+
+        <label for = "lname"> Last Name: </label>
+            <input type = "text" id = "lname" name = "lname"> <br> <br>
+                <!-- Short Text Box -->
+
+        <label for = "comments"> Comments: </label> <br>
+            <textarea id = "comments" name = "comments"> 
+            </textarea> <br> <br>
+                <!-- Long Text Box -->
+
+        <p> Pick a Number </p>
+        <label for = "number1"> 1 </label>
+            <input type = "radio" id = "number1" name = "numbers">
+        <label for = "number2"> 2 </label>
+            <input type = "radio" id = "number2" name = "numbers">
+        <label for = "number3"> 3 </label>
+            <input type = "radio" id = "number3" name = "numbers"> <br> <br>
+                <!-- Multiple Choice (Only 1 response allowed)-->
+        
+                <p> How Do You Get Around? </p>
+        <label for = "veh1"> I have a Bike</label>
+            <input type = "checkbox" id = "veh1" name = "veh1" label = "Bike"> <br>
+        <label for = "veh2"> I have a Car </label>
+            <input type = "checkbox" id = "veh2" name = "veh2" label = "Car"> <br>
+        <label for = "veh3"> I Walk </label>
+            <input type = "checkbox" id = "veh3" name = "veh3" label = "Walk"> <br> <br>
+                <!-- Multiple Choice -->
+
+      
+        <label for = "cars"> Choose a Car: </label>
+            <select id = "cars" name = "cars">
+                <option value = "blank"> -- Select a Choice -- </option>
+                <option value = "BMW"> BMW </option>
+                <option value = "Honda"> Honda </option>
+                <option value = "Ford"> Ford </option>
+            </select> <br> <br>
+
+        <input type = "submit" value = "Submit This Form">
+            <!-- Submit Button -->
+            
+    </form> 
+</body>
+
+
+</html>
