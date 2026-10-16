@@ -1,5 +1,7 @@
 body {background-color: #510000}
 
+footer {font-family: 'Courier New', Courier, monospace;}
+footer {color: white;}
 .quote {float: right;}
 header {float: right;}
 header {margin-left: 20px;}
