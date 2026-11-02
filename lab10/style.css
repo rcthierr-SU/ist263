@@ -37,4 +37,4 @@ label {color: white}
 
 .banner {max-width: 100%;}
 
-@media only screen and (max-width: 800px) {nav a {max-width: 100%; display: block; padding: 10px} nav span {display: none} .firstrow {max-width: 100%;}}
+@media only screen and (max-width: 800px) {nav a {max-width: 100%; display: block; padding: 10px} nav span {display: none} .firstrow{max-width: 100%; flex-wrap: wrap;}}
