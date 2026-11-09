@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "en"> 
+<head> 
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width, intial-scale = 0">
+    <title>More JavaScript</title>
+
+    <style>
+        #first {color: red}
+    </style>
+
+    <script>
+        function wrongAnswer () {document.getElementById("wrong").innerHTML = "<span style = 'color: red';> True is the wrong answer! </span>" }
+        
+        function rightAnswer () {document.getElementById("correct").innerHTML = "<span style = 'color: green;'> False is the correct answer! </span>"}
+
+        function change () {document.getElementById("image").setAttribute("src", "../images/skillimage_big.png")}
+
+        function changeBack () {document.getElementById("image").setAttribute("src", "../images/skillimage.png")}
+
+        function colorChange () {document.getElementById("first").style.color = "blue"}
+    </script>
+</head>
+
+<body>
+    <h1 id = "first"> My JavaScript Quiz </h1>
+    <p>Java and JavaScript are the same thing.</p>
+    <p onclick = "wrongAnswer();" id = "wrong">True</p>
+    <p onclick = "rightAnswer();" id = "correct">False</p>
+    <img src = "../images/skillimage.png" alt = "skillimage" id = "image" onmouseover = "change()" onmouseleave = "changeBack()" onclick = "colorChange()">
+</body>
+
+
+</html>
