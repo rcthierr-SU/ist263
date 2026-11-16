@@ -1,0 +1,58 @@
+@media only screen and (max-width: 800px) 
+{.content {flex-direction: column;}}
+
+@media only screen and (max-width: 800px) {nav a {max-width: 100%; display: block; padding: 10px} nav span {display: none}}
+
+nav {background-color: red;}
+nav {font-size: 20px;}
+nav {padding: 10px}
+nav {margin-bottom: 30px}
+nav {text-align: center;}
+
+nav a {font-color: blue;}
+nav a:hover {color: red; background-color: blue;}
+
+body {background-color: #0046a8;}
+body{color: white;}
+body {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+
+h3 {text-decoration: underline;}
+
+p {font-size: 20px;}
+ul {font-size: 20px;}
+
+.content {display: flex; align-items:flex-start; gap: 2em;}
+
+.bigpic {max-width: 100%;}
+.wholeimage1 {display: block; margin: auto; width: 50%;}
+
+.mepic {margin: 0 3em 0 0;}
+.mepic_whole {float: right; max-width: 100%; height: auto;}
+
+
+figcaption {color: white;}
+
+.tabcontent {max-width: 100%;}
+.tabcontent {margin: 0 auto;}
+.tabcontent {text-align: center;}
+
+.facts {margin: auto;}
+.facts ul {width: 50%; padding: 10px;}
+
+.comments {text-align: left;}
+
+#SM1 {display: block; margin: auto; max-width: 100%;}
+
+.tabs {display: flex; gap: 1em; justify-content: center;}
+.tabs button {flex: 1;}
+button {background-color: #910000}
+button {border-color: red;}
+button{color: white; font-size: 20px;}
+
+footer a {color: blue}
+footer a:hover {color: red; background-color: blue}
+footer {background-color: red}
+footer {margin-bottom: 30px}
+footer {text-align: center;}
+hr, footer {clear: both;}
+

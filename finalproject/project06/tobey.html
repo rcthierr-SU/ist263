@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang = "en" id = tobey> 
+<head> 
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width = device-width, intial-scale = 0">
+    <link rel = "stylesheet" href = "projectstyle.css">
+
+    <script>
+        function movieOff () {
+            document.getElementById("SM1").style.display = 'none';
+            
+            document.getElementById("SM2").style.display = 'none';
+
+            document.getElementById("SM3").style.display = 'none';}
+        function openSM1 () {
+            document.getElementById('SM1').style.display = 'block';}
+
+        function openSM2 () {
+            document.getElementById('SM2').style.display = 'block';}
+
+        function openSM3 () {
+            document.getElementById('SM3').style.display = 'block';}
+    </script>
+
+    <title> Spider-Man </title>
+</head>
+
+<body onload = "movieOff(); openSM1();">
+
+    <header> 
+    <nav>
+        <a href = "index.html"> Home</a> <span>|</span>
+        <a href = "tobey.html"> Spider-Man</a> <span>|</span>
+        <a href = "andrew.html"> The Amazing Spider-Man</a> <span>|</span>
+        <a href = "tom.html"> MCU Spider-Man</a> <span>|</span>
+        <a href = "verse.html">Spider-Verse Spider-Man</a>
+    </nav>
+    </header>
+
+    <main class = "content1"> 
+    <h1> Spider-Man </h1>
+
+    <p>
+        The original cinematic run of Spider-Man ran from 2002 until 2007. It spanned 3 movies and starred 
+        <strong>Toby Maguire </strong> as the titular Spider-Man. All three movies were directed by Sam Raimi. <br>
+    </p>
+
+    <div class = "tabs">
+        <button class = "tlink" onclick = "movieOff(); openSM1()"> Spider-Man </button>
+        <button class = "tlink" onclick = "movieOff(); openSM2()"> Spider-Man 2 </button>
+        <button class = "tlink" onclick = "movieOff(); openSM3()"> Spider-Man 3 </button>
+    </div>
+
+    <div id = "SM1" class = "tabcontent">
+    <h2>Spider-Man</h2>
+    <figure>
+        <img src = "../../images/tobey1.jpg" alt = "Spider-Man Poster">
+        <figcaption><strong>Credit:</strong> Sony Pictures </figcaption>
+    </figure>
+    <div class = "facts">
+    <h3> Quick Facts: </h3>
+        <ul class = "facts" style = "list-style-type: none;">
+            <li> <strong> Movie Name: </strong> Spider-Man </li>
+            <li> <strong> Runtimes: </strong> 121 minutes </li>
+            <li> <strong>Director: </strong> Sam Raimi </li>
+            <li> <strong> Main Actor:</strong> Toby Maguire </li>
+            <li> <strong> Villains:</strong> Green Goblin</li>
+        </ul>
+    </div>
+    <div class = "comments">
+    <h3> Commentary: </h3>
+    <p>
+        The original cinematic run of Spider-Man was very incredibly formative to my upbringing. I have incredibly memories of watching the this one with my dad when I was maybe 6. It sparked a lasting love of this character for me.
+    </p>
+    </div> 
+    </div>
+
+    <div id = "SM2" class = "tabcontent">
+    <h2>Spider-Man 2</h2>
+    <figure class = poster1>
+        <img src = "../../images/tobey2.jpg" alt = "Spider-Man 2 Poster">
+        <figcaption><strong>Credit:</strong> Sony Pictures </figcaption>
+    </figure>
+    <div class = "facts">
+    <h3> Quick Facts: </h3>
+        <ul class = "facts" style = "list-style-type: none;">
+            <li> <strong> Movie Name: </strong> Spider-Man 2</li>
+            <li> <strong> Runtimes: </strong> 127 minutes </li>
+            <li> <strong>Director: </strong> Sam Raimi </li>
+            <li> <strong> Main Actor:</strong> Toby Maguire </li>
+            <li> <strong> Villains:</strong> Doc Ock </li>
+        </ul> <br>
+    </div>
+    
+    <div class = "comments">
+        <h3> Commentary: </h3>
+        <p>
+            Unfortunately the second and third Sam Raimi movies are not as strong as the first. That being said Doc Ock is one of my favorite villans so Spider-Man 2 still sits fairly highly in my books. 
+        </p>
+    </div> 
+    </div>
+
+    <div id = "SM3" class = "tabcontent">
+    <h2>Spider-Man 3</h2>
+    <figure>
+        <img src = "../../images/tobey3.jpg" alt = "Spider-Man 3 Poster">
+        <figcaption><strong>Credit:</strong> Sony Pictures </figcaption>
+    </figure>
+        <div class = "facts">
+       <h3> Quick Facts: </h3>
+        <ul class = "facts" style = "list-style-type: none;">
+            <li> <strong> Movie Names: </strong> Spider-Man 3 </li>
+            <li> <strong> Runtimes: </strong> 139 minutes </li>
+            <li> <strong>Director: </strong> Sam Raimi </li>
+            <li> <strong> Main Actor:</strong> Toby Maguire </li>
+            <li> <strong> Villains:</strong> Venom & Sandman </li>
+        </ul> <br>
+        </div>
+    <div class = "comments">
+        <h3> Commentary: </h3>
+        <p>
+            Even more unfortunately, Spider-Man 3 is my least favorite of the three films, which is a common sentiment across the fandom. I don't particularly care about Sandman or the Venom arc. That being said the movie still has its moments such as the Bully Maguire dance scene.
+        </p>
+    </div>
+    </div>
+
+    </main>
+<hr>
+<footer> 
+    follow me on letterboxd <a href = "https://letterboxd.com/rye_bread38/" target = "_blank"> @rye_bread38 </a>
+    <br> <span>	&copy; Ayrn Webster 2026 </span>
+</footer>
+</body>
+
+
+</html>
